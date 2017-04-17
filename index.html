@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--head content starts here-->
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 3.3</title>
+    <!--embedded style starts here-->
+    <style type="text/css">
+        body {
+            background-color: #C75C6E
+        }
+
+        h3 {
+            color: #FFFFFF;
+            font-family: sans-serif;
+        }
+    </style>
+    <!--End-->
+    <!--include all external style sheets here within head tag-->
+    <link rel="stylesheet" href="style.css">
+    <!--End-->
+</head>
+<!--End-->
+
+<!--Body content starts here-->
+<body>
+<div class="main">
+    <form action="">
+        <h3>Step 1:Your details</h3>
+        <div class="outer">
+            <div class="inner">
+                <label class="lbl">Name<input class="input_cls" type="text" name="name"
+                                              placeholder="First and last name"></label>
+            </div>
+        </div>
+        <div class="outer">
+            <div class="inner">
+                <label class="lbl">Email<input class="input_cls" type="email" name="email"
+                                               placeholder="example@domain.com"></label>
+            </div>
+        </div>
+        <div class="outer">
+            <div class="inner">
+                <label class="lbl">Phone<input class="input_cls" type="number" name="phone"
+                                               placeholder="e.g. +44750000000000"></label>
+            </div>
+        </div>
+        <h3>Step 1:Delivery details</h3>
+        <div class="outer">
+            <div class="inner">
+                <label class="lbl">Address<textarea class="input_cls" style="height:50px;"></textarea></label>
+            </div>
+        </div>
+        <div class="outer">
+            <div class="inner">
+                <label class="lbl">Post code<input class="input_cls" type="number" name="postcode"></label>
+            </div>
+        </div>
+        <div class="outer">
+            <div class="inner">
+                <label class="lbl">Country<input class="input_cls" type="text" name="country"></label>
+            </div>
+        </div>
+        <h3>Step 1:Card details</h3>
+        <div class="outer">
+            <div class="inner">
+                <label style="margin-left:10px;display:block;margin-top:10px">Card type<br><br>
+                    <input class="chk" type="radio" name="opt"> <img
+                            src="images/logo_1.png" height="10px" width="20px" alt="visa">
+                    VISA
+                    <input class="chk" type="radio" name="opt"> <img
+                            src="images/amex.png"
+                            height="10px" width="20px" alt="amex"> AmEx
+                    <input class="chk" type="radio" name="opt"> <img
+                            src="images/mastercard_logo.png" height="10px" width="20px" alt="mastercard"> Mastercard
+                </label>
+            </div>
+        </div>
+        <div class="outer">
+            <div class="inner">
+                <label class="lbl">Card number<input class="input_cls" type="number" name="cardnumber"></label>
+            </div>
+        </div>
+        <div class="outer">
+            <div class="inner">
+                <label class="lbl">Security code<input class="input_cls" type="number" name="securitycode"></label>
+            </div>
+        </div>
+        <div class="outer">
+            <div class="inner">
+                <label class="lbl">Name on card<input class="input_cls" type="text" name="nameoncard"
+                                                      placeholder="exact name as on the card"></label>
+            </div>
+        </div>
+
+        <div class="outer">
+            <button class="btn" type="submit">BUYIT!</button>
+        </div>
+    </form>
+</div>
+</body>
+<!--End-->
+</html>
